@@ -1,28 +1,3 @@
-import { createAppContainer } from 'react-navigation';
-import { createStackNavigator } from 'react-navigation-stack';
-
-//import Home from "../pages/QrReader/Home";
-import QRCodeScannerScreen from "../pages/QrReader/QRCodeScannerScreen";
-//import QRCodeData from "../pages/QrReader/QRCodeData"; 
-import UploadFile from "../pages/UploadFile/UploadFile";
-import Login from "../pages/Login/Login";
-import Registration from "../pages/Registration/Registration";
-import DisplayCsvDataTable from "../pages/DisplayCsvData/DisplayCsvDataTable"
-import UpdateFile from "../pages/UpdateFile/UpdateFile"
-
-
-const mainStack = createStackNavigator(
-  { 
-    Login: Login,
-    UploadFile: UploadFile,
-    DisplayCsvDataTable:DisplayCsvDataTable,
-    QRCodeScannerScreen: QRCodeScannerScreen,
-    UpdateFile: UpdateFile,
-    Registration: Registration
-  },
-  { defaultNavigationOptions: { headerShown: false } }
-);
-
-const AppContainer = createAppContainer(mainStack);
-
-export default AppContainer;
+version https://git-lfs.github.com/spec/v1
+oid sha256:ed458a8a1ab7c8e53fa1773084dbc5c904e03bbd9bbbd41e11bc95fffaf1acfb
+size 1096

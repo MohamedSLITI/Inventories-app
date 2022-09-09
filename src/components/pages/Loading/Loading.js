@@ -1,27 +1,3 @@
-import React, { Component } from "react";
-import { ActivityIndicator, StyleSheet, Text, View } from "react-native";
-
-class App extends Component {
-  render() {
-    return (
-      <View style={[styles.container, styles.horizontal]}>
-        <ActivityIndicator size="large" color="#0000FF" />
-      </View>
-    );
-  }
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: "center"
-  },
-  horizontal: {
-    flexDirection: "row",
-    justifyContent: "space-around",
-    padding: 10,
-    alignItems: "center"
-  }
-});
-
-export default App;
+version https://git-lfs.github.com/spec/v1
+oid sha256:d4fcd947c89660d14f5fff05ed9940328c7a67b318ba61473652ed1ca0ec14c7
+size 590

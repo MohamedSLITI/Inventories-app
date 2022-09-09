@@ -1,20 +1,3 @@
-/**
- * Metro configuration for React Native
- * https://github.com/facebook/react-native
- *
- * @format
- */
-
-module.exports = {
-  transformer: {
-    getTransformOptions: async () => ({
-      transform: {
-        experimentalImportSupport: false,
-        inlineRequires: true,
-      },
-    }),
-  },
-  resolver: {
-    sourceExts: ['jsx', 'js', 'ts', 'tsx', 'cjs'],
-  },
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:70bc519ca66fc792826c4a68b08bf1df10500b778e2d19b85970d732084aa0aa
+size 369
